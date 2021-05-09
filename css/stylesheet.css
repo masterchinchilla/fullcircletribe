@@ -3,14 +3,23 @@
 	src: url("../fonts/Attemptyon-qvYx.ttf")
 
 }
+div.backgroundShell {
+	position: fixed;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bckgrnd050821b.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
 body {
  background-color: #19496e;
 	/*background-image: linear-gradient(236deg, rgba(177, 177, 177, 0.03) 0%, rgba(177, 177, 177, 0.03) 16.667%,rgba(95, 95, 95, 0.03) 16.667%, rgba(95, 95, 95, 0.03) 33.334%,rgba(237, 237, 237, 0.03) 33.334%, rgba(237, 237, 237, 0.03) 50.001000000000005%,rgba(28, 28, 28, 0.03) 50.001%, rgba(28, 28, 28, 0.03) 66.668%,rgba(174, 174, 174, 0.03) 66.668%, rgba(174, 174, 174, 0.03) 83.33500000000001%,rgba(51, 51, 51, 0.03) 83.335%, rgba(51, 51, 51, 0.03) 100.002%),linear-gradient(395deg, rgba(11, 11, 11, 0.02) 0%, rgba(11, 11, 11, 0.02) 25%,rgba(107, 107, 107, 0.02) 25%, rgba(107, 107, 107, 0.02) 50%,rgba(228, 228, 228, 0.02) 50%, rgba(228, 228, 228, 0.02) 75%,rgba(155, 155, 155, 0.02) 75%, rgba(155, 155, 155, 0.02) 100%),linear-gradient(462deg, rgba(234, 234, 234, 0.03) 0%, rgba(234, 234, 234, 0.03) 16.667%,rgba(191, 191, 191, 0.03) 16.667%, rgba(191, 191, 191, 0.03) 33.334%,rgba(236, 236, 236, 0.03) 33.334%, rgba(236, 236, 236, 0.03) 50.001000000000005%,rgba(85, 85, 85, 0.03) 50.001%, rgba(85, 85, 85, 0.03) 66.668%,rgba(222, 222, 222, 0.03) 66.668%, rgba(222, 222, 222, 0.03) 83.33500000000001%,rgba(38, 38, 38, 0.03) 83.335%, rgba(38, 38, 38, 0.03) 100.002%),linear-gradient(234deg, rgba(192, 192, 192, 0.03) 0%, rgba(192, 192, 192, 0.03) 16.667%,rgba(200, 200, 200, 0.03) 16.667%, rgba(200, 200, 200, 0.03) 33.334%,rgba(23, 23, 23, 0.03) 33.334%, rgba(23, 23, 23, 0.03) 50.001000000000005%,rgba(224, 224, 224, 0.03) 50.001%, rgba(224, 224, 224, 0.03) 66.668%,rgba(181, 181, 181, 0.03) 66.668%, rgba(181, 181, 181, 0.03) 83.33500000000001%,rgba(34, 34, 34, 0.03) 83.335%, rgba(34, 34, 34, 0.03) 100.002%),linear-gradient(481deg, rgba(11, 11, 11, 0.03) 0%, rgba(11, 11, 11, 0.03) 20%,rgba(29, 29, 29, 0.03) 20%, rgba(29, 29, 29, 0.03) 40%,rgba(91, 91, 91, 0.03) 40%, rgba(91, 91, 91, 0.03) 60%,rgba(239, 239, 239, 0.03) 60%, rgba(239, 239, 239, 0.03) 80%,rgba(19, 19, 19, 0.03) 80%, rgba(19, 19, 19, 0.03) 100%),linear-gradient(468deg, rgba(211, 211, 211, 0.02) 0%, rgba(211, 211, 211, 0.02) 25%,rgba(137, 137, 137, 0.02) 25%, rgba(137, 137, 137, 0.02) 50%,rgba(14, 14, 14, 0.02) 50%, rgba(14, 14, 14, 0.02) 75%,rgba(220, 220, 220, 0.02) 75%, rgba(220, 220, 220, 0.02) 100%),linear-gradient(339deg, rgba(248, 248, 248, 0.03) 0%, rgba(248, 248, 248, 0.03) 12.5%,rgba(185, 185, 185, 0.03) 12.5%, rgba(185, 185, 185, 0.03) 25%,rgba(243, 243, 243, 0.03) 25%, rgba(243, 243, 243, 0.03) 37.5%,rgba(13, 13, 13, 0.03) 37.5%, rgba(13, 13, 13, 0.03) 50%,rgba(99, 99, 99, 0.03) 50%, rgba(99, 99, 99, 0.03) 62.5%,rgba(193, 193, 193, 0.03) 62.5%, rgba(193, 193, 193, 0.03) 75%,rgba(241, 241, 241, 0.03) 75%, rgba(241, 241, 241, 0.03) 87.5%,rgba(38, 38, 38, 0.03) 87.5%, rgba(38, 38, 38, 0.03) 100%),linear-gradient(252deg, rgba(171, 171, 171, 0.02) 0%, rgba(171, 171, 171, 0.02) 20%,rgba(118, 118, 118, 0.02) 20%, rgba(118, 118, 118, 0.02) 40%,rgba(7, 7, 7, 0.02) 40%, rgba(7, 7, 7, 0.02) 60%,rgba(235, 235, 235, 0.02) 60%, rgba(235, 235, 235, 0.02) 80%,rgba(190, 190, 190, 0.02) 80%, rgba(190, 190, 190, 0.02) 100%),linear-gradient(290deg, rgb(25,73,110),rgb(25,73,110));*/
-	
-	background-image: url("../img/bckgrnd050821b.jpeg");
+	/* background-image: url("../img/bckgrnd050821b.jpeg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: top center;
+	background-position: top center; */
 	font-family: 'Antonio', sans-serif;
 	font-size: 12pt;
 }
@@ -31,26 +40,26 @@ h1, h2, h3, h4, h5, h6, li, a, p, figcaption, span {
  	padding: 0.25em;
 	margin: 0.25em;
 }
-h1, h2, h3, h4, h5, h6, span.siteName {
+h1, h2, h3, h4, h5, h6, li, span.siteName {
 	font-family: "Attemptyon-qvYx.ttf";
 }
 h6 {
- font-size: 1.25em;
+ font-size: 1em;
 }
 h5 {
- font-size: 1.5em;
+ font-size: 1.25em;
 }
 h4 {
- font-size: 1.75em;
+ font-size: 1.5em;
 }
 h3 {
- font-size: 2em;
+ font-size: 1.75em;
 }
 h2 {
- font-size: 2.5em;
+ font-size: 2em;
 }
 h1 {
- font-size: 2.75em;
+ font-size: 2.25em;
 }
 .hiddenHeaders {
  display: none;
@@ -71,6 +80,9 @@ nav ul {
 }
 nav li {
  white-space: nowrap;
+}
+li.navLi {
+	font-size: 1.75em;
 }
 div.socialMediaBar {
 	display: flex;
@@ -99,14 +111,14 @@ img.SMIcon {
 }
 div.nameNLogoBar {
 	display: inline-grid;
-	width: max-content;
-	grid-template-columns: min-content max-content;
-	grid-template-rows: min-content min-content;
-	gap: 1.5em;
-	margin-top: 2em;
+    grid-template-columns: min-content max-content;
+    grid-template-rows: min-content min-content;
+    gap: 1.5em;
+    margin-top: 2em;
+    margin-left: -0.8em;
 }
 img.ourCoLogo {
-	width: 10em;
+	width: 5em;
 	border-radius: 100%;
 	box-shadow: 1px 1px 10px #19242d;
 	grid-column-start: 1;
@@ -115,7 +127,7 @@ img.ourCoLogo {
 	grid-row-end: 3;
 }
 span.siteName {
-	font-size: 5em;
+	font-size: 3em;
 	margin: 0;
 	padding: 0;
 	grid-column-start: 2;
@@ -203,7 +215,7 @@ figcaption {
 	margin-bottom: 1em;
 }
 span.galButton {
-		margin: 0 -2em 0 -2em;
+	/* margin: 0 -2em 0 -2em; */
 	font-size: 5em;
 	padding: 0;
 	text-shadow: 2px 2px black;
