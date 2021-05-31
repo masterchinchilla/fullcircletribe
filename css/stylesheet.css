@@ -118,9 +118,9 @@ div.nameNLogoBar {
     margin-left: -0.8em;
 }
 img.ourCoLogo {
-	width: 5em;
-	border-radius: 100%;
-	box-shadow: 1px 1px 10px #19242d;
+	width: 10em;
+	/* border-radius: 100%;
+	box-shadow: 1px 1px 10px #19242d; */
 	grid-column-start: 1;
   	grid-column-end: 2;
 	grid-row-start: 1;
