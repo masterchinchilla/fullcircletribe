@@ -41,6 +41,10 @@ ol, ul {
 .softBlackBGColor {
 	background-color: #231f20;
 }
+.coralColor {
+  fill: #D72B13;
+  color: #D72B13;
+}
 .brandTitleFont {
 	font-family: GravtracCpRg-Bold, Gravtrac;
 }
@@ -151,7 +155,8 @@ h1, h2, h3, h4, h5, h6, li, a, p, figcaption, span {
 	margin: 0.25em;
 }
 h1, h2, h3, h4, h5, h6, span.siteName {
-	font-family: "gravtracCompressedBd.ttf";
+	font-family: GravtracCpRg-Bold, Gravtrac;
+	font-size: 300%;
 }
 .hiddenHeaders {
  display: none;
@@ -230,9 +235,10 @@ span.siteName {
 	align-self: end;
 	display: none;
 }
-h2.tagline {
+.tagline {
 	margin: 0;
 	padding: 0;
+	font-size: 200%;
 	grid-column-start: 2;
   	grid-column-end: 3;
 	grid-row-start: 2;
