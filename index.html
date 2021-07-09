@@ -11,16 +11,16 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/d8de664714.js" crossorigin="anonymous"></script>
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon3/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon3/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon3/favicon-16x16.png">
-	<link rel="manifest" href="img/favicon3/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon4/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon4/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon4/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon4/site.webmanifest">
 </head>
 <body>
-	<div class="backgroundShell"></div>
+	<div class="BGContainer"></div>
 	<header>
 		<nav class="topNav">
-			<div class="navDiv">
+			<!-- <div class="navDiv">
 				<h2 class="pagePartTitle hiddenHeaders">Navigation</h2>
 				<ul class="navLinkList topNavList">
 					<li class="navLi">
@@ -41,6 +41,30 @@
 						<a href="contact.html" active>Contact</a>
 					</li>
 				</ul>
+			</div> -->
+			<div class="hamMenu">
+				<div id="hamMenuIcon" onclick="hamOpenClose()">
+					<span id="hamLine1" class="hamClosed"></span>
+					<span id="hamLine2" class="hamClosed"></span>
+					<span id="hamLine3" class="hamClosed"></span>
+				</div>
+				<div id="hamMenuList" class="hamMenuPre1stClick">
+					<h1 class="hamHeader">Page Contents</h1>
+					<ul>
+						<li><a href="index.html">Home: Products</a>
+							<ul>
+								<li><a href="#hatBandsH1">Hat Bands</a></li>
+								<li><a href="#JewelryH1">Jewelry</a></li>
+								<li><a href="#textilesH1">Textiles</a></li>
+								<li><a href="#decorH1">Decor</a></li>
+								<li><a href="#otherH1">Other</a></li>
+							</ul>
+						</li>
+						<li><a href="blog.html">Blog / Social</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="socialMediaBar">
 				<h2 class="pagePartTitle hiddenHeaders">Connect on Social Media</h2>
@@ -69,7 +93,7 @@
 			</div>
 		</nav>
 		<div class="nameNLogoBar">
-			<img class="ourCoLogo" src="img/ArrowCircleNoWords053021d.svg" />
+			<img class="ourCoLogo" src="img/FCTLogoGreenArrowCircleFeatherNewFont070821.svg" />
 			<span class="siteName">Full Circle Tribe</span>
 			<h2 class="tagline">Bring the Good <span class="fullCircle">Full Circle</span></h2>
 		</div>
@@ -293,5 +317,6 @@
 		<p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
 				href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 	</footer>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
