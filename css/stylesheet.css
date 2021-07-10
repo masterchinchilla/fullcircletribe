@@ -480,3 +480,9 @@ span.hamLine3Closing {
     0% {opacity:1;}
     100% {opacity:0;}
 }
+.shopify-buy-frame--toggle.is-active.is-sticky * {
+  background: #D72B13;
+}
+img {
+  border-radius: 20px;
+}
