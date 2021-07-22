@@ -57,9 +57,12 @@ section, figure, footer, div, li.bizProcessList ul, li.bizProcessList ul li {
 nav ul, .wideList, .bizProcessList ul {
   flex-direction: row;
 }
-section {
-  background-image: url("../img/darkGreenRug.jpg"); 
-  background-size: contain;
+.tagBlurbSctn {
+  background-color: rgba(255, 254, 244, 0.95)
+}
+.tagBlurbSctn * {
+  color: #231f20;
+  text-shadow: none;
 }
 h1, h2, h3, h4, h5, h6, p, figcaption {
  	padding: 0.2rem;
