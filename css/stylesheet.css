@@ -455,3 +455,29 @@ span.hamLine3Closing {
 img {
   border-radius: 20px;
 }
+.backToTopButton i {
+  color: #231f20;
+  font-size: 2rem;
+  background: white;
+  border-radius: 100%;
+  border: solid 1px #231f20;
+  transition: bottom 0.25s;
+  position: fixed;
+  bottom: 8px;
+  right: 12px;
+}
+.backToTopButton i:hover {
+  bottom: 15px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #30d5c8;
+}
