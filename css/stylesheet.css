@@ -125,7 +125,7 @@ body {
   text-align: center;
   line-height: 1;
 }
-div.BGContainer {  
+.BGContainer {  
   position: fixed;
   width: 100%;
   height: 100%;
@@ -135,8 +135,8 @@ div.BGContainer {
   z-index: -999;
   background-image: url("../img/blueWoodBckgrnd.jpg");
   background-blend-mode:overlay,overlay,normal;
-  /* background-repeat: no-repeat; */
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header div {
   box-shadow: none;
@@ -480,4 +480,17 @@ img {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #30d5c8;
+}
+@media only screen and (min-width: 7in) {
+  .logoTextFeatures {
+    font-size: 110px;
+    font-weight: 500;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+  }
+  .BGContainer {  
+    background-repeat: unset;
+    background-size: unset;
+  }
 }
